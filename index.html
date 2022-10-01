@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <link rel = "stylesheet" href = "gravityadd.css">
+</head>
+<body>
+    <div class = main>
+    <script>
+        var name = prompt('행성의 이름을 입력해주세요','메세지를 입력해주세요')
+        var m = prompt('행성의 질량을 입력해주세요','메세지를 입력해주세요')
+        var r = prompt('행성의 반지름을 입력해주세요.','메세지를 입력해주세요')
+        document.write(name + "의 중력가속도: " + (6673 / 100000000000000) * (m/(r*r)))
+    </script>
+    </div>
+</body>
